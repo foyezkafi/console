@@ -16,12 +16,12 @@
 // }
 
 
-const myButton = document.querySelector('#clikbutton')
+const myButton = document.getElementById('#clikbutton')
 
-
-myButton.addEventListener('click',()=>{
-    console.log('kemon asen apni?')
-})
+    console.log('myButton')
+// myButton.addEventListener('click',()=>{
+//     console.log('kemon asen apni?')
+// })
 
 
 
