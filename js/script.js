@@ -16,4 +16,12 @@
 // }
 
 
+const myButton = document.querySelector('#clikbutton')
+
+
+myButton.addEventListener('click',()=>{
+    console.log('kemon asen apni?')
+})
+
+
 
