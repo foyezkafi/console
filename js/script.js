@@ -19,9 +19,9 @@
 const myButton = document.getElementById('#clikbutton')
 
     console.log('myButton')
-// myButton.addEventListener('click',()=>{
-//     console.log('kemon asen apni?')
-// })
+myButton.addEventListener('click',()=>{
+    console.log('kemon asen apni?')
+})
 
 
 
