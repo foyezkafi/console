@@ -1,19 +1,19 @@
-// const age = prompt('Apner boyos koto?')
-// const income = prompt('apner sellary koto hole apni ay job niben?')
+const age = prompt('Apner boyos koto?')
+const income = prompt('apner sellary koto hole apni ay job niben?')
 
 
-// if(age >=20 && age <=50){
-//     if(income <=25000){
-//         console.log('ok job e apnake newa holo')
-//     }
-//     else{
-//         console.log('apni onk besi chaitechen')
-//     }
+if(age >=20 && age <=50){
+    if(income <=25000){
+        console.log('ok job e apnake newa holo')
+    }
+    else{
+        console.log('apni onk besi chaitechen')
+    }
     
-// }
-// else{
-//     console.log('apner boyos ta aro besi hole vhalo hoto')
-// }
+}
+else{
+    console.log('apner boyos ta aro besi hole vhalo hoto')
+}
 
 
 // const myButton = document.getElementById('#clikbutton')
@@ -49,19 +49,19 @@
 
 
 
-let gpa = prompt('apner ssc te GPA koto?')
-let mark = prompt('apner g-math and h-math e total mark koto')
+// let gpa = prompt('apner ssc te GPA koto?')
+// let mark = prompt('apner g-math and h-math e total mark koto')
 
-if(gpa ==5){
-    console.log('ok thik ase')
-    if(mark >=170){
-        console.log('okh')
-    }
-    else('mark ta 170 er besi hole newa jeto')
-}
-else{
-    console.log('apner gpa 5 hole newa jeto')
-}
+// if(gpa ==5){
+//     console.log('ok thik ase')
+//     if(mark >=170){
+//         console.log('okh')
+//     }
+//     else('mark ta 170 er besi hole newa jeto')
+// }
+// else{
+//     console.log('apner gpa 5 hole newa jeto')
+// }
 
 
 
