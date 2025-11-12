@@ -102,6 +102,11 @@
 //     h1.style ='color:red;'
 // })
 
+
+
+
+
+
 // task 3
 // // ----------dom
 // let main_box = document.querySelector('div#main_box')
