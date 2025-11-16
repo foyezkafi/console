@@ -91,16 +91,16 @@
 // alu(10 , 30)
 
 
-const button = document.querySelector('button')
-const h1 = document.querySelector('h1')
+// const button = document.querySelector('button')
+// const h1 = document.querySelector('h1')
 
 
 
 
-button.addEventListener('click' , ()=>{
-    console.log('click hoise')
-    h1.style ='color:red;'
-})
+// button.addEventListener('click' , ()=>{
+//     console.log('click hoise')
+//     h1.style ='color:red;'
+// })
 
 
 
@@ -172,6 +172,27 @@ button.addEventListener('click' , ()=>{
 //     message.className = "success";
 //   }
 // });
+
+
+const input = document.getElementById("nameInput")
+const button = document.getElementById("submitBtn")
+const massage = document.getElementById("massage")
+
+
+button.addEventListener('click' , ()=>{
+    console.log('clcik hoise')
+
+    const name = input.value.trim();
+
+    if(name == ''){
+        message.textContent = "kisu likhen";
+        // massage.className = "error";
+    }else{
+        message.textContent = `My name is ${name}`;
+        // massage.className = "success";
+    }
+
+});
 
 // task 6
 
